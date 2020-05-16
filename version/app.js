@@ -5,7 +5,7 @@ var response;
 
 app.get('/', function (req, res) {
 
-    response = 'Teste openshift - novo app' + '\n';
+    response = 'Teste openshift - Version 2' + '\n';
 
     //send the response to the client
     res.send(response);

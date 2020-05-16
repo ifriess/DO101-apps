@@ -5,7 +5,7 @@ var response;
 
 app.get('/', function (req, res) {
 
-    response = 'Teste openshift - Version 2' + '\n';
+    response = 'Teste openshift - Version 3 - autodeploy' + '\n';
 
     //send the response to the client
     res.send(response);
